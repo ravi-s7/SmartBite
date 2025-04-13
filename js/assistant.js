@@ -45,7 +45,7 @@ document.getElementById('generate-btn').addEventListener('click', async function
 
     // API call to Gemini
     try {
-        const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCtuf5-afM7tqypIFy80eLnejaEEnLQ6Cc', {
+        const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=apikey', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
